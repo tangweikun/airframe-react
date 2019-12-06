@@ -1,45 +1,42 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import { Provider } from './context';
+import { Provider } from "./context";
 
 class Checkable extends React.Component {
-    static propTypes = {
-        children: PropTypes.node.isRequired,
-        tag: PropTypes.oneOfType([
-            PropTypes.func,
-            PropTypes.string
-        ])
-    };
-    static defaultProps = {
-        tag: "div"
-    };
+	static propTypes = {
+		children: PropTypes.node.isRequired,
+		tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string])
+	};
+	static defaultProps = {
+		tag: "div"
+	};
 
-    constructor(props) {
-        super(props);
-        
-        this.state = {
-            isChecked: false
-        };
-    }
+	constructor(props) {
+		super(props);
 
-    render() {
-        const { tag, children, ...otherProps } = this.props;
-        const Tag = this.props.tag;
+		this.state = {
+			isChecked: false
+		};
+	}
 
-        return (
-            <Provider
-                value={{
-                    isChecked: this.state.isChecked,
-                    toggle: (enabled) => { this.setState({ isChecked: enabled || !this.state.isChecked }) }
-                }}
-            >
-                <Tag { ...otherProps }>
-                    { children }
-                </Tag>
-            </Provider>
-        );
-    }
+	render() {
+		const { tag, children, ...otherProps } = this.props;
+		const Tag = this.props.tag;
+
+		return (
+			<Provider
+				value={{
+					isChecked: this.state.isChecked,
+					toggle: enabled => {
+						this.setState({ isChecked: enabled || !this.state.isChecked });
+					}
+				}}
+			>
+				<Tag {...otherProps}>{children}</Tag>
+			</Provider>
+		);
+	}
 }
 
 export { Checkable };

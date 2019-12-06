@@ -1,15 +1,15 @@
 /* React Toggle Overrides */
 .react-toggle-track {
-    .fa {
-        font-size: 12px;
-    }
+	.fa {
+		font-size: 12px;
+	}
 }
 
 .react-toggle-track {
 	background-color: $gray-500 !important;
 }
 .react-toggle-thumb {
-	border: 1px solid $gray-500 !important;	
+	border: 1px solid $gray-500 !important;
 }
 
 .react-toggle--checked .react-toggle-track {

@@ -3,7 +3,7 @@
 // Card
 .react-datepicker {
 	border: solid 1px $gray-400 !important;
-	font-family: inherit  !important;
+	font-family: inherit !important;
 	box-shadow: $box-shadow;
 }
 .react-datepicker__header {
@@ -46,9 +46,9 @@
 	color: $white !important;
 }
 
-
 // Day In Range
-.react-datepicker__month--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range) {
+.react-datepicker__month--selecting-range
+	.react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range) {
 	background-color: lighten($primary, 15%) !important;
 	color: $white !important;
 }

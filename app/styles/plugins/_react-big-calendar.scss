@@ -46,7 +46,8 @@
 	border: 1px solid $gray-300 !important;
 }
 
-.rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active {
 	background-image: none;
 	color: $black !important;
 	box-shadow: none !important;

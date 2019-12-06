@@ -6,24 +6,24 @@
 	padding: 20px;
 	border-radius: 3px;
 	border-top: 1px solid $gray-300;
-    border-bottom: 1px solid $gray-300;
-    border-right: 1px solid $gray-300;
-    font-family: inherit;
+	border-bottom: 1px solid $gray-300;
+	border-right: 1px solid $gray-300;
+	font-family: inherit;
 }
 .Toastify__toast p {
-	color:  $body-color;
+	color: $body-color;
 }
 .Toastify__toast h6 {
-	color:  $black;
+	color: $black;
 	font-weight: 500;
 }
 
 // Toastiy: "SUCCESS" Alert
 .Toastify__toast--success .fa-check {
-	color:  $success;
+	color: $success;
 }
 .Toastify__toast--success .fa-check-circle {
-	color:  $success !important;
+	color: $success !important;
 }
 .Toastify__toast--success {
 	border-left: 3px solid $success;
@@ -35,7 +35,7 @@
 // Toastiy: "INFO" Alert
 
 .Toastify__toast--info .fa-info {
-	color:  $primary;
+	color: $primary;
 }
 .Toastify__toast--info {
 	background-color: $white;
@@ -47,7 +47,7 @@
 
 // Toastiy: "WARNING" Alert
 .Toastify__toast--warning .fa-exclamation {
-	color:  $warning;
+	color: $warning;
 }
 .Toastify__toast--warning {
 	background-color: $white;
@@ -59,7 +59,7 @@
 
 // Toastiy: "ERROR" Alert
 .Toastify__toast--error .fa-close {
-	color:  $danger;
+	color: $danger;
 }
 .Toastify__toast--error {
 	background-color: $white;
@@ -71,7 +71,7 @@
 
 // Toastiy: "DEFAULT" Alert
 .Toastify__toast--default .fa-exclamation {
-	color:  $dark;
+	color: $dark;
 }
 .Toastify__toast--default {
 	background-color: $white;

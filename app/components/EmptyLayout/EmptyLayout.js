@@ -38,7 +38,7 @@ class EmptyLayout extends React.Component {
             </div>
         );
     }
-};
+}
 
 const PageConfigEmptyLayout = withPageConfig(EmptyLayout);
 

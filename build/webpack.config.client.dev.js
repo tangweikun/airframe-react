@@ -23,7 +23,10 @@ module.exports = {
 		publicPath: BASE_PATH
 	},
 	resolve: {
-		modules: ["node_modules", config.srcDir]
+		modules: ["node_modules", config.srcDir],
+		alias: {
+			"@": path.resolve(__dirname, "../app")
+		}
 	},
 	plugins: [
 		new CircularDependencyPlugin({

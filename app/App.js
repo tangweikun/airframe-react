@@ -2,12 +2,12 @@ import React from "react";
 import { hot } from "react-hot-loader";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import AppLayout from "./../../layout/default";
-import { RoutedContent } from "./../../routes";
+import AppLayout from "@/layout/default";
+import { RoutedContent } from "@/routes";
 
 const basePath = process.env.BASE_PATH || "/";
 
-const AppClient = () => {
+const App = () => {
 	return (
 		<Router basename={basePath}>
 			<AppLayout>
@@ -17,4 +17,4 @@ const AppClient = () => {
 	);
 };
 
-export default hot(module)(AppClient);
+export default hot(module)(App);

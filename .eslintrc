@@ -1,26 +1,46 @@
 {
-    "parser": "babel-eslint",
-    "plugins": [
-        "react"
-    ],
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true,
-            "experimentalObjectRestSpread": true
-        }
-    },
-    "env": {
-        "es6":     true,
-        "browser": true,
-        "node":    true,
-        "mocha":   true
-    },   
-    "extends": [
-        "eslint:recommended", 
-        "plugin:react/recommended"
-    ],    
-    "rules": {
-    }
+	"parser": "babel-eslint",
+	"plugins": ["react"],
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true,
+			"experimentalObjectRestSpread": true
+		}
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true,
+		"mocha": true
+	},
+	"extends": ["eslint:recommended", "plugin:react/recommended"],
+	"rules": {
+		"no-unused-vars": "warn",
+		"no-mixed-spaces-and-tabs": "warn",
+		"react/prop-types": "off",
+		"react/display-name": "warn",
+		"react/no-unescaped-entities": "warn",
+		"no-console": "off",
+		"no-var": "error",
+		"no-new-object": "warn",
+		"quote-props": ["error", "as-needed"],
+		"no-array-constructor": "warn",
+		"prefer-template": "error",
+		"template-curly-spacing": "error",
+		"no-eval": "error",
+		"no-loop-func": "warn",
+		"prefer-rest-params": "warn",
+		"no-new-func": "error",
+		"no-param-reassign": "warn",
+		"prefer-spread": "warn",
+		"prefer-arrow-callback": "warn",
+		"no-confusing-arrow": "error",
+		"no-useless-constructor": "warn",
+		"no-duplicate-imports": "error",
+		"no-multi-assign": "error",
+		"no-else-return": "warn",
+		"no-new-wrappers": "warn"
+	}
 }

@@ -1,17 +1,7 @@
 import React from "react";
 import faker from "faker/locale/en_US";
 
-import {
-	Card,
-	CardImg,
-	HolderProvider,
-	Media,
-	Avatar,
-	AvatarAddOn,
-	Button,
-	Badge,
-	CardBody
-} from "./../../../components";
+import { Card, CardImg, HolderProvider, Media, Avatar, AvatarAddOn, Badge, CardBody } from "./../../../components";
 
 import { randomArray, randomAvatar } from "./../../../utilities";
 

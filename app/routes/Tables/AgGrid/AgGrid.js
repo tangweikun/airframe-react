@@ -116,7 +116,7 @@ class SkillFilter {
 		eGui.appendChild(eInstructions);
 
 		const createCheckMarkElement = () => {
-			var eCheckMark = document.createElement("i");
+			let eCheckMark = document.createElement("i");
 			eCheckMark.className = "fa fa-check fa-fw ml-auto text-success";
 
 			return eCheckMark;
@@ -131,7 +131,7 @@ class SkillFilter {
 			eFilter.href = "javascript:;";
 
 			const eImg = document.createElement("img");
-			eImg.src = "//www.ag-grid.com/images/skills/" + skill + ".png";
+			eImg.src = `//www.ag-grid.com/images/skills/${skill}.png`;
 			eImg.height = 20;
 			eImg.className = "mr-2";
 
@@ -208,7 +208,7 @@ class ProficiencyFilter {
 
 			eFilter.addEventListener("click", e => {
 				const element = e.currentTarget;
-				element.parentElement.childNodes.forEach(function(node) {
+				element.parentElement.childNodes.forEach(node => {
 					node.classList.toggle("active", false);
 				});
 				element.classList.toggle("active");

@@ -92,11 +92,10 @@ export class Row extends React.Component {
 					{adjustedChildren}
 				</ResponsiveGrid>
 			);
-		} else {
-			const adjustedChildren = React.Children.map(children, child => React.cloneElement(child, { active: false }));
-
-			return <BSRow>{adjustedChildren}</BSRow>;
 		}
+		const adjustedChildren = React.Children.map(children, child => React.cloneElement(child, { active: false }));
+
+		return <BSRow>{adjustedChildren}</BSRow>;
 	}
 
 	_updateTrueColSizes = layout => {

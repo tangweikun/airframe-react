@@ -1,10 +1,7 @@
 import React from "react";
 import _ from "lodash";
 import faker from "faker/locale/en_US";
-import { Media, Avatar, AvatarAddOn } from "./../../../components";
-
 import { randomArray } from "./../../../utilities";
-
 import { TinyAreaChart } from "./TinyAreaChart";
 
 const channel = ["Organic Search", "Display", "Direct", "Paid Search"];

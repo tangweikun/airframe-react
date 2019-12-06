@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { UncontrolledPopover, PopoverHeader, PopoverBody, Button } from "./../../../components";
+import { UncontrolledPopover, PopoverHeader, PopoverBody } from "./../../../components";
 
 export const POPOVER_BODY_PARTS = [".text-", ".bg-", ".b-", ".bl-", ".br-", ".bt-", ".bb-", ".by-", ".bx-", ".btn-"];
 

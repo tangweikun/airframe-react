@@ -11,9 +11,8 @@ const gradientOffset = data => {
 		return 0;
 	} else if (dataMin >= 0) {
 		return 1;
-	} else {
-		return dataMax / (dataMax - dataMin);
 	}
+	return dataMax / (dataMax - dataMin);
 };
 
 export const DefAreaValueColor = props => {

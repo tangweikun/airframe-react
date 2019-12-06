@@ -1,24 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-import {
-	Card,
-	CardBody,
-	CardTitle,
-	Container,
-	ListGroup,
-	ListGroupItem,
-	Row,
-	Col,
-	CustomInput,
-	Button,
-	Label
-} from "./../../../components";
+import { Card, CardBody, CardTitle, Container, Row, Col } from "./../../../components";
 
 import { HeaderMain } from "../../components/HeaderMain";
-
-import { HeaderAuth } from "../../components/Pages/HeaderAuth";
-import { FooterAuth } from "../../components/Pages/FooterAuth";
 import { TimelineMini } from "../../components/Timeline/TimelineMini";
 import { TimelineDefault } from "../../components/Timeline/TimelineDefault";
 

@@ -25,9 +25,8 @@ const getLogoUrl = (style, color) => {
 const getLogoUrlBackground = (style, color) => {
 	if (style === "color") {
 		return logos["white"];
-	} else {
-		return getLogoUrl(style, color);
 	}
+	return getLogoUrl(style, color);
 };
 
 const LogoThemed = ({ checkBackground, className, ...otherProps }) => (

@@ -188,7 +188,7 @@ const Tables = () => (
 								<span className="small ml-1 text-muted">#5.01</span>
 							</CardTitle>
 							<p className="mb-0">
-								Add <code>size="sm"</code> to make tables more compact by cutting cell padding in half.
+								Add <code>size=&quot;sm&quot;</code> to make tables more compact by cutting cell padding in half.
 							</p>
 						</CardBody>
 						{/* START Table */}

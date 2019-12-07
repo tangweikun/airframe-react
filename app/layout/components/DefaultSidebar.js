@@ -12,12 +12,11 @@ import { LogoThemed } from "../../routes/components/LogoThemed/LogoThemed";
 export const DefaultSidebar = () => (
 	<Sidebar>
 		{/* START SIDEBAR-OVERLAY: Close (x) */}
-		<Sidebar.Close>
+		{/* <Sidebar.Close>
 			<SidebarTrigger tag={"a"} href="javascript:;">
 				<i className="fa fa-times-circle fa-fw"></i>
 			</SidebarTrigger>
-		</Sidebar.Close>
-		{/* START SIDEBAR-OVERLAY: Close (x) */}
+		</Sidebar.Close> */}
 
 		{/* START SIDEBAR: Only for Desktop */}
 		<Sidebar.HideSlim>

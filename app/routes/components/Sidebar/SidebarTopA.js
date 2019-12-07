@@ -1,7 +1,6 @@
 import React from "react";
 import faker from "faker/locale/en_US";
 import { Link } from "react-router-dom";
-
 import {
 	Sidebar,
 	UncontrolledButtonDropdown,
@@ -12,6 +11,7 @@ import {
 	DropdownItem
 } from "./../../../components";
 import { randomAvatar } from "./../../../utilities";
+import styles from "./SidebarTopA.module.scss";
 
 const avatarImg = randomAvatar();
 
@@ -19,7 +19,7 @@ const SidebarTopA = () => (
 	<React.Fragment>
 		{/* START: Sidebar Default */}
 		<Sidebar.HideSlim>
-			<Sidebar.Section className="pt-0">
+			<Sidebar.Section className={`pt-0 ${styles["profile-wrapper"]}`}>
 				<Link to="/" className="d-block">
 					<Sidebar.HideSlim>
 						<Avatar.Image

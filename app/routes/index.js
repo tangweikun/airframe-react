@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Route, Switch, Redirect } from "react-router";
 
 // ----------- Pages Imports ---------------
@@ -105,12 +105,16 @@ import { DefaultSidebar } from "./../layout/components/DefaultSidebar";
 import { SidebarANavbar } from "./../layout/components/SidebarANavbar";
 import { SidebarASidebar } from "./../layout/components/SidebarASidebar";
 
+import TasksHomePage from "./Tasks/Home";
+
 //------ Route Definitions --------
 // eslint-disable-next-line no-unused-vars
 export const RoutedContent = () => {
 	return (
 		<Switch>
 			<Redirect from="/" to="/dashboards/projects" exact />
+
+			<Route path="/tasks" exact component={TasksHomePage} />
 
 			<Route path="/dashboards/analytics" exact component={Analytics} />
 			<Route path="/dashboards/projects" exact component={ProjectsDashboard} />

@@ -236,9 +236,8 @@ class Layout extends React.Component {
 									sidebarCollapsed: !this.props.sidebarSlim && this.state.sidebarCollapsed
 								})}
 
-							<div className="layout__wrap">
+							<div className="layout__wrap" style={{ background: "#F3F3F3" }}>
 								{!this.state.navbarHidden && navbars}
-
 								{content}
 							</div>
 

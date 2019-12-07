@@ -5,7 +5,7 @@ import { SidebarMenu } from "./../../components";
 export const SidebarMiddleNav = () => (
 	<SidebarMenu>
 		<SidebarMenu.Item icon={<i className="fa fa-fw fa-th"></i>} title="DASHBOARDS" to="/dashboards/analytics" exact />
-		<SidebarMenu.Item icon={<i className="fa fa-fw fa-clone"></i>} title="TASKS" to="/dashboards/projects" exact />
+		<SidebarMenu.Item icon={<i className="fa fa-fw fa-clone"></i>} title="TASKS" to="/tasks" exact />
 
 		<SidebarMenu.Item icon={<i className="fa fa-fw fa-home"></i>} title="REQUESTS">
 			<SidebarMenu.Item title="My Requests" to="/cards/cards" exact />

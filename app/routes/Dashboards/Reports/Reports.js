@@ -685,7 +685,7 @@ const Reports = () => (
 											</td>
 											<td className="align-middle text-right">40MB/s</td>
 											<td className="align-middle text-right">60</td>
-											<td claclassNamess="align-middle text-right">25%</td>
+											<td className="align-middle text-right">25%</td>
 											<td className="align-middle text-right">10%</td>
 											<td className="align-middle text-right">1.1GB</td>
 											<td className="align-middle text-right">

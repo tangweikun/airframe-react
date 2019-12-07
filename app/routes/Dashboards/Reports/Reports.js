@@ -44,13 +44,13 @@ const Reports = () => (
 							</CardTitle>
 							<span className="ml-auto justify-content-start">
 								<a
-									href="javascript:;"
+									href="#"
 									className="ml-auto justify-content-start pr-2 text-decoration-none"
 									id="TemperaturesTooltipSettings"
 								>
 									<i className="fa fa-fw fa-sliders"></i>
 								</a>{" "}
-								<a href="javascript:;" id="TemperaturesTooltipAdd" className="text-decoration-none">
+								<a href="#" id="TemperaturesTooltipAdd" className="text-decoration-none">
 									<i className="fa fa-fw fa-plus"></i>
 								</a>
 							</span>
@@ -202,13 +202,13 @@ const Reports = () => (
 							</CardTitle>
 							<span className="ml-auto justify-content-start">
 								<a
-									href="javascript:;"
+									href="#"
 									className="ml-auto justify-content-start pr-2 text-decoration-none"
 									id="UsageTooltipSettings"
 								>
 									<i className="fa fa-fw fa-sliders"></i>
 								</a>{" "}
-								<a href="javascript:;" id="UsageTooltipAdd" className="text-decoration-none">
+								<a href="#" id="UsageTooltipAdd" className="text-decoration-none">
 									<i className="fa fa-fw fa-plus"></i>
 								</a>
 							</span>
@@ -399,13 +399,13 @@ const Reports = () => (
 									</CardTitle>
 									<span className="ml-auto justify-content-start">
 										<a
-											href="javascript:;"
+											href="#"
 											className="ml-auto justify-content-start pr-2 text-decoration-none"
 											id="AllocationTooltipSettings"
 										>
 											<i className="fa fa-fw fa-sliders"></i>
 										</a>{" "}
-										<a href="javascript:;" id="AllocationTooltipAdd" className="text-decoration-none">
+										<a href="#" id="AllocationTooltipAdd" className="text-decoration-none">
 											<i className="fa fa-fw fa-plus"></i>
 										</a>
 									</span>
@@ -487,13 +487,13 @@ const Reports = () => (
 									</CardTitle>
 									<span className="ml-auto justify-content-start">
 										<a
-											href="javascript:;"
+											href="#"
 											className="ml-auto justify-content-start pr-2 text-decoration-none"
 											id="CoolingTooltipSettings"
 										>
 											<i className="fa fa-fw fa-sliders"></i>
 										</a>{" "}
-										<a href="javascript:;" id="CoolingTooltipAdd" className="text-decoration-none">
+										<a href="#" id="CoolingTooltipAdd" className="text-decoration-none">
 											<i className="fa fa-fw fa-plus"></i>
 										</a>
 									</span>
@@ -571,10 +571,10 @@ const Reports = () => (
 										Activity
 									</CardTitle>
 									<span className="ml-auto justify-content-start">
-										<a href="javascript:;" className="ml-auto justify-content-start pr-2" id="ActivityTooltipSettings">
+										<a href="#" className="ml-auto justify-content-start pr-2" id="ActivityTooltipSettings">
 											<i className="fa fa-fw fa-sliders"></i>
 										</a>{" "}
-										<a href="javascript:;" id="ActivityTooltipAdd">
+										<a href="#" id="ActivityTooltipAdd">
 											<i className="fa fa-fw fa-plus"></i>
 										</a>
 									</span>

@@ -15,7 +15,7 @@ const UncontrolledTabsNavLink = props => (
 					value.setActiveTabId(props.tabId);
 				}}
 				className={classNames({ active: props.tabId === value.activeTabId })}
-				href="javascript:;"
+				href="#"
 			/>
 		)}
 	</Consumer>
